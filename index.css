@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    border-left: 1px;
+    border-right: 1px;
+}
+
+header {
+    background-image: url(resources/image/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    text-align: center;
+    
+}
+
+
+/*Profile from Pic to @reflychandra*/
+header .profile {
+    color: black;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+/*Picture Profile*/
+header .profile img{
+    /*Border Radius Memotong Foto*/
+    border-radius: 120px;
+    border: 20px;
+    
+    /*Ketebalan dari Garis Border*/
+    border-width: thick;
+    
+    /*Gaya Dari Border*/
+    border-style: solid;
+    border-color: yellow;
+    
+}
+
+/*Nama Refly Hanny Chandra*/
+.profile h3{
+    
+    /*Padding untuk memberi jarak*/
+    padding-top: 20px;
+    
+    /*Untuk Mnengubah Font*/
+    font-family: sans-serif;
+}
+
+.profile p{
+    padding-top: 5px;
+    font-family: sans-serif;
+    font-size: 11pt;
+    font-style: italic;
+}
+
+.topnav {
+    background-color: yellow;
+    padding: 9px;
+    overflow: hidden;
+}
+
+
+.topnav a{
+    
+    /*Text Setings*/
+    float: none;
+    padding: 0 15px;
+    text-decoration: none;
+    text-align: center;
+    text-decoration: none;
+    
+    /*Font Settings*/
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    font-style: normal;
+    color: black;
+}
+
+/*Hover adalah fungsi jika cursor mengarah pada salah satu Nav*/
+.topnav a:hover{
+    background: white;
+    color: yellow;
+}
+
+/*Class active untuk menunjukkan Halaman yang sedang dibuka*/
+.topnav a.active{
+    background: black;
+    color: yellow;
+}
+
+/*Masuk Bagian Article*/
+    /*Start Article Verse*/
+.verse {
+    background-color: black;
+    width: 100%;
+    float: none;
+}
+
+.verse h2 {
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.verse p {
+    margin: 0 20px;
+    padding: 10px 0;
+    color: white;
+    text-align: justify;
+}
+    /*End Article Verse*/
+
+    /*Start Article Send*/
+
+.send {
+    height: 110px;
+    background-color: yellow;
+}
+
+.send h2{
+    font-family: sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+
+input {
+    /*The Button Setting*/
+    background: black;
+    width: 200px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    
+    /*The Text Setting*/
+    color: yellow;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 900;
+}
+
+input:hover{
+    background: white;
+    color: black;
+}
+    /*End Article Send*/
+
+/*End Bagian Article*/
+
+/*Bagian Footer*/
+footer {
+    background-color: black;
+    color: lightslategrey;
+    text-align: center;
+    padding: 5px 0;
+    font-family: monospace;
+    
+}
